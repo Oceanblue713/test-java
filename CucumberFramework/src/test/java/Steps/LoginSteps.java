@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -33,18 +34,20 @@ public class LoginSteps {
 	}
 
 	@Given("^user navigates to \"([^\"]*)\"$")
-	public void user_navigates_to(String arg1) throws Throwable {
-
+	public void user_navigates_to(String url) throws Throwable {
+		driver.get(url);
 	}
 
 	@When("^user clicks on the login portal buton$")
 	public void user_clicks_on_the_login_portal_buton() throws Throwable {
-
+		driver.findElement(By.id("login-portal")).click();
 	}
 
 	@And("^user enters the \"([^\"]*)\" username$")
 	public void user_enters_the_username(String arg1) throws Throwable {
-
+		for (String windHandle : driver.getWindowHandles()) {
+			driver.switchTo().window(windHandle);
+		}
 	}
 
 	@And("^user enter the \"([^\"]*)\"$")
