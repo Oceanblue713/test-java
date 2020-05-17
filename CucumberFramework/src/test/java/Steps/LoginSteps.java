@@ -1,9 +1,12 @@
 package Steps;
 
+import static org.testng.Assert.*;
+
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,8 +32,8 @@ public class LoginSteps {
 	@After()
 	public void tearDown() {
 		driver.manage().deleteAllCookies();
-		driver.close();
-		driver.quit();
+		// driver.close();
+		// driver.quit();
 	}
 
 	@Given("^user navigates to \"([^\"]*)\"$")
@@ -44,25 +47,28 @@ public class LoginSteps {
 	}
 
 	@And("^user enters the \"([^\"]*)\" username$")
-	public void user_enters_the_username(String arg1) throws Throwable {
+	public void user_enters_the_username(String username) throws Throwable {
 		for (String windHandle : driver.getWindowHandles()) {
 			driver.switchTo().window(windHandle);
 		}
+		driver.findElement(By.id("text")).sendKeys(username);
 	}
 
 	@And("^user enter the \"([^\"]*)\"$")
-	public void user_enter_the(String arg1) throws Throwable {
-
+	public void user_enter_the(String password) throws Throwable {
+		driver.findElement(By.id("password")).sendKeys(password);
 	}
 
 	@When("^user clicks on the login button$")
 	public void user_clicks_on_the_login_button() throws Throwable {
-
+		driver.findElement(By.id("login-button")).click();
 	}
 
 	@Then("^the user should be presented with the following prompt alert \"([^\"]*)\"$")
-	public void the_user_should_be_presented_with_the_following_prompt_alert(String arg1) throws Throwable {
-
+	public void the_user_should_be_presented_with_the_following_prompt_alert(String message) throws Throwable {
+		Alert alert = driver.switchTo().alert();
+		assertEquals(alert.getText().toString().toLowerCase().replaceAll("\\$", ""), message.toLowerCase().replaceAll("\\$", ""));
+		alert.accept();
 	}
 
 }
