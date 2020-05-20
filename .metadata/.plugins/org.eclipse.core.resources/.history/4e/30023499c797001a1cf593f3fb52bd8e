@@ -1,0 +1,14 @@
+package selenium;
+
+public class TestNGParallelTests {
+
+	@BeforeClass
+	void setUpClass(){
+		System.setProperty("webdriver.chrome.driver", "/Users/andy/Desktop/chromedriver");
+	}
+
+	@Test
+	void calcTest(){
+		Webdriver driver = new ChromeDriver();
+	}
+}

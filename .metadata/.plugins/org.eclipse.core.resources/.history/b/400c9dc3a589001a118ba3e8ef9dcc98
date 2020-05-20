@@ -1,0 +1,3 @@
+Feature: Submit data to webdriveruniversity.com using concact us form
+    A user should be able to submit information via the contact us form
+    If a user clicks on the reset button then all information should be removed from the contact us form

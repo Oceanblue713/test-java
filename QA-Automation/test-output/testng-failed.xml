@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]">
+  <test thread-count="5" name="FunctionalTest(failed)" parallel="methods">
+    <classes>
+      <class name="selenium.TestNGParallelTestsDataprovider">
+        <methods>
+          <include name="searchTest"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- selenium.TestNGParallelTestsDataprovider -->
+    </classes>
+  </test> <!-- FunctionalTest(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->

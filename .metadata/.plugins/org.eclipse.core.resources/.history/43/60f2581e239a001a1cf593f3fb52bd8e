@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite" thred-count="5" parallel="tests">
+  <test name="FunctionalTest">
+    <classes>
+      <class name="selenium.TestNGParallelTests"/>
+      <class name="selenium.TestNGParallelTests2"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+  <test name="FunctionalTest2">
+    <classes>
+      <class name="selenium.TestNGParallelTests"/>
+      <class name="selenium.TestNGParallelTests2"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+  <test name="FunctionalTest3">
+    <classes>
+      <class name="selenium.TestNGParallelTests"/>
+      <class name="selenium.TestNGParallelTests2"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+</suite> <!-- SmokeSuite -->

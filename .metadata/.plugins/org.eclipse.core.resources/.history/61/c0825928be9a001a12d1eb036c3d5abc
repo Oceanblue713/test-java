@@ -1,0 +1,20 @@
+package selenium;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+
+public class TestNGParallelTestsDataprovider {
+
+	@BeforeClass
+	void setUpClass(){
+		System.setProperty("webdriver.chrome.driver", "/Users/andy/Desktop/chromedriver");
+	}
+
+	@DataProvider(name=" browsers")
+	Object[][] testBrowsers(){
+		return new Object[][] {
+			{"Selenium Webdriver"},
+			{"TestNG"},
+		};
+	}
+}

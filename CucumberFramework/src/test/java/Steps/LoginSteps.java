@@ -25,15 +25,15 @@ public class LoginSteps {
 	public void setup() throws IOException {
 		System.setProperty("webdriver.chrome.driver", Paths.get(System.getProperty("user.dir")).toRealPath() + "/src/test/java/resources/chromedriver");
 		this.driver = new ChromeDriver();
-		this.driver.manage().window().maximize();
+		// this.driver.manage().window().maximize();
 		this.driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
 	}
 
 	@After()
 	public void tearDown() {
 		driver.manage().deleteAllCookies();
-		// driver.close();
-		// driver.quit();
+		driver.close();
+		driver.quit();
 	}
 
 	@Given("^user navigates to \"([^\"]*)\"$")
