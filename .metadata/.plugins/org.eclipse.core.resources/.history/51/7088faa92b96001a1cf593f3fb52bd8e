@@ -1,0 +1,39 @@
+package Steps;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class LoginSteps {
+
+	@Given("^user navigates to \"([^\"]*)\"$")
+	public void user_navigates_to(String arg1) throws Throwable {
+
+	}
+
+	@When("^user clicks on the login portal buton$")
+	public void user_clicks_on_the_login_portal_buton() throws Throwable {
+
+	}
+
+	@And("^user enters the \"([^\"]*)\" username$")
+	public void user_enters_the_username(String arg1) throws Throwable {
+
+	}
+
+	@And("^user enter the \"([^\"]*)\"$")
+	public void user_enter_the(String arg1) throws Throwable {
+
+	}
+
+	@When("^user clicks on the login button$")
+	public void user_clicks_on_the_login_button() throws Throwable {
+
+	}
+
+	@Then("^the user should be presented with the following prompt alert \"([^\"]*)\"$")
+	public void the_user_should_be_presented_with_the_following_prompt_alert(String arg1) throws Throwable {
+
+	}
+
+}

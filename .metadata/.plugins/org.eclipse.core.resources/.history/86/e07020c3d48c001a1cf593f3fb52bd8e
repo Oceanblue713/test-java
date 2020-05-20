@@ -1,0 +1,9 @@
+Feature: Login to account at webdriveruniversity.com using login portal
+
+Scenario: Login account with a valid password
+    Given I access webdriveruniversity.com
+    When I click on the login portal button
+    And I enter a username
+    And I enter a valid password
+    And I click on the login button
+    Then I should be presented with a successful validation alert

@@ -1,0 +1,692 @@
+2020-04-28 15:48:16,231 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-28 15:50:21,818 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml
+2020-04-28 15:50:23,278 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.WerbdirverUniversityFramework:WebdriverUniversityFramework:0.0.1-SNAPSHOT @ /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml.
+2020-04-28 15:50:24,056 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebdriverUniversityFramework/src/main/java
+2020-04-28 15:50:24,058 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebdriverUniversityFramework/src/test/java
+2020-04-28 15:50:28,000 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2020-04-28 15:50:28,387 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 15:50:28,387 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/src/main/resources
+2020-04-28 15:50:28,389 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 15:50:28,389 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/src/test/resources
+2020-04-28 15:57:23,050 [Worker-1] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:542) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:498) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </project> must match start tag name <dependencies> from line 48 (position: TEXT seen ...</dependency>\n</project>... @166:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:86) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </project> must match start tag name <dependencies> from line 48 (position: TEXT seen ...</dependency>\n</project>... @166:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:1727) ~[plexus-utils-3.0.22.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1169) ~[plexus-utils-3.0.22.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131) ~[plexus-utils-3.0.22.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1118) ~[plexus-utils-3.0.22.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2231) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3845) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	... 26 common frames omitted
+2020-04-28 15:57:26,113 [Worker-6] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:542) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:498) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </project> must match start tag name <dependencies> from line 48 (position: TEXT seen ...</dependency>\n</project>... @166:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:86) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </project> must match start tag name <dependencies> from line 48 (position: TEXT seen ...</dependency>\n</project>... @166:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:1727) ~[plexus-utils-3.0.22.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1169) ~[plexus-utils-3.0.22.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1131) ~[plexus-utils-3.0.22.jar:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1118) ~[plexus-utils-3.0.22.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2231) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3845) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	... 26 common frames omitted
+2020-04-28 15:58:15,069 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.webdriveruniversity:CucumberFramework:0.0.1-SNAPSHOT @ /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml.
+2020-04-28 15:58:22,389 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 15:58:22,418 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/src/main/resources
+2020-04-28 15:58:22,420 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 15:58:22,420 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/src/test/resources
+2020-04-28 15:58:22,622 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-04-28 15:58:26,461 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.webdriveruniversity:CucumberFramework:0.0.1-SNAPSHOT @ /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml.
+2020-04-28 15:58:30,033 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebdriverUniversityFramework/src/main/java
+2020-04-28 15:58:30,108 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebdriverUniversityFramework/src/test/java
+2020-04-28 15:58:30,606 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2020-04-28 15:58:30,611 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-04-28 15:58:32,043 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.webdriveruniversity:CucumberFramework:0.0.1-SNAPSHOT @ /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml.
+2020-04-28 15:58:34,183 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebdriverUniversityFramework/src/main/java
+2020-04-28 15:58:34,184 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WebdriverUniversityFramework/src/test/java
+2020-04-28 15:58:34,285 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2020-04-28 15:58:35,748 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 15:58:35,885 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/src/main/resources
+2020-04-28 15:58:35,887 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 15:58:35,887 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/src/test/resources
+2020-04-28 16:00:01,866 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:00:01,953 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/src/main/resources
+2020-04-28 16:00:01,954 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:00:01,955 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/src/test/resources
+2020-04-28 16:02:13,090 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-28 16:02:13,131 [Worker-0] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml: /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml (No such file or directory) @ 
+ for project  at /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml: /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml (No such file or directory) @ 
+ for project  at /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-readable POM /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml: /Users/andy/Desktop/WebdriverUniversityFramework/WebdriverUniversityFramework/pom.xml (No such file or directory) @ 
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:598) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:273) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161) ~[maven-core-3.3.9.jar:3.3.9]
+	... 15 common frames omitted
+2020-04-28 16:04:09,694 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/pom.xml
+2020-04-28 16:04:11,931 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.webdriveruniversity:CucumberFramework:0.0.1-SNAPSHOT @ /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/pom.xml.
+2020-04-28 16:04:14,133 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberFramework/src/main/java
+2020-04-28 16:04:14,135 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberFramework/src/test/java
+2020-04-28 16:04:14,581 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2020-04-28 16:04:17,729 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:04:17,729 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:04:17,730 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:04:17,730 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:04:39,410 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.webdriveruniversity:CucumberFramework:0.0.1-SNAPSHOT @ /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/pom.xml.
+2020-04-28 16:04:41,205 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:04:41,206 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:04:41,207 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:04:41,207 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:04:41,422 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-04-28 16:04:41,614 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.webdriveruniversity:CucumberFramework:0.0.1-SNAPSHOT @ /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/pom.xml.
+2020-04-28 16:04:41,854 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberFramework/src/main/java
+2020-04-28 16:04:41,854 [Worker-21] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberFramework/src/test/java
+2020-04-28 16:04:42,006 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-04-28 16:04:42,304 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:04:42,304 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:04:42,305 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:04:42,305 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:07:24,698 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-04-28 16:07:24,888 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.webdriveruniversity:CucumberFramework:0.0.1-SNAPSHOT @ /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/pom.xml.
+2020-04-28 16:07:25,158 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberFramework/src/main/java
+2020-04-28 16:07:25,159 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberFramework/src/test/java
+2020-04-28 16:07:25,281 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-04-28 16:07:25,587 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:07:25,587 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:07:25,590 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:07:25,590 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:08:36,920 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:08:36,920 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:08:36,921 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:08:36,921 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:08:52,777 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:08:52,777 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:08:52,778 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:08:52,778 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:09:09,465 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:09:09,466 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:09:09,467 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:09:09,467 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:09:19,733 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:09:19,733 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:09:19,734 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:09:19,734 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:09:28,467 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:09:28,467 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:09:28,468 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:09:28,468 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:09:38,429 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:09:38,430 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:09:38,432 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:09:38,432 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:10:02,123 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:10:02,124 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:10:02,125 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:10:02,125 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:11:46,496 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:11:46,496 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:11:46,497 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:11:46,497 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-28 16:12:43,388 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:12:43,389 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-28 16:12:43,389 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-28 16:12:43,390 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-29 15:58:47,141 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-04-29 15:59:23,507 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 15:59:23,508 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-29 15:59:23,510 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 15:59:23,510 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-29 16:00:21,502 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:00:21,502 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-29 16:00:21,503 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:00:21,504 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-29 16:01:32,503 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:01:32,503 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-29 16:01:32,503 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:01:32,504 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-29 16:03:05,858 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:03:05,858 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-29 16:03:05,859 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:03:05,859 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-29 16:05:00,482 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:05:00,483 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-29 16:05:00,483 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:05:00,484 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-29 16:05:03,500 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:05:03,500 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-29 16:05:03,501 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-29 16:05:03,501 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-30 15:30:23,302 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:30:23,396 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-30 15:30:23,397 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:30:23,398 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-30 15:30:49,588 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:30:49,588 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-30 15:30:49,589 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:30:49,589 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-30 15:31:10,210 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:31:10,210 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-30 15:31:10,212 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:31:10,213 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-30 15:31:30,949 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:31:30,950 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-30 15:31:30,950 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:31:30,950 [Worker-181] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-30 15:39:08,689 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:39:08,704 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-30 15:39:08,705 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:39:08,706 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-30 15:40:40,511 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:40:40,511 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-30 15:40:40,512 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:40:40,512 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-30 15:40:41,862 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:40:41,862 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-30 15:40:41,863 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:40:41,863 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-30 15:41:05,793 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:41:05,794 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-30 15:41:05,797 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:41:05,797 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-04-30 15:43:07,168 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:43:07,168 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-04-30 15:43:07,169 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-30 15:43:07,169 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-01 16:36:18,077 [Worker-439] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:36:18,121 [Worker-439] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-01 16:36:18,122 [Worker-439] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:36:18,122 [Worker-439] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-01 16:36:56,662 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:36:56,662 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-01 16:36:56,663 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:36:56,663 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-01 16:37:27,944 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:37:27,944 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-01 16:37:27,945 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:37:27,945 [Worker-450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-01 16:39:57,123 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:39:57,123 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-01 16:39:57,124 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:39:57,124 [Worker-446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-01 16:39:58,134 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:39:58,134 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-01 16:39:58,135 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-01 16:39:58,135 [Worker-449] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:11:13,301 [Worker-631] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:11:13,316 [Worker-631] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:11:13,317 [Worker-631] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:11:13,317 [Worker-631] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:12:38,243 [Worker-634] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:12:38,243 [Worker-634] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:12:38,244 [Worker-634] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:12:38,244 [Worker-634] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:17:45,946 [Worker-636] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:17:45,947 [Worker-636] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:17:45,948 [Worker-636] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:17:45,948 [Worker-636] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:18:29,412 [Worker-635] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:18:29,412 [Worker-635] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:18:29,413 [Worker-635] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:18:29,413 [Worker-635] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:19:56,567 [Worker-638] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:19:56,568 [Worker-638] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:19:56,568 [Worker-638] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:19:56,568 [Worker-638] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:21:55,123 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:21:55,124 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:21:55,124 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:21:55,124 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:22:58,806 [Worker-638] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:22:58,806 [Worker-638] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:22:58,807 [Worker-638] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:22:58,807 [Worker-638] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:23:26,868 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:23:26,868 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:23:26,869 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:23:26,870 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:26:42,619 [Worker-642] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:26:42,620 [Worker-642] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:26:42,620 [Worker-642] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:26:42,620 [Worker-642] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-02 17:28:26,099 [Worker-643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:28:26,099 [Worker-643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-02 17:28:26,100 [Worker-643] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-02 17:28:26,100 [Worker-643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-03 15:28:48,425 [Worker-770] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169) [org.eclipse.recommenders.models.rcp_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421) ~[na:na]
+	... 8 common frames omitted
+2020-05-03 15:30:57,430 [Worker-770] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:30:57,430 [Worker-770] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-03 15:30:57,431 [Worker-770] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:30:57,431 [Worker-770] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-03 15:31:45,838 [Worker-774] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:31:45,838 [Worker-774] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-03 15:31:45,839 [Worker-774] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:31:45,839 [Worker-774] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-03 15:34:38,967 [Worker-770] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:34:38,967 [Worker-770] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-03 15:34:38,968 [Worker-770] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:34:38,968 [Worker-770] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-03 15:35:53,943 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:35:53,943 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-03 15:35:53,944 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:35:53,944 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-03 15:37:06,385 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:37:06,458 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-03 15:37:06,459 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:37:06,459 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-03 15:39:52,801 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:39:52,818 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-03 15:39:52,819 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:39:52,819 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-03 15:39:59,957 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:39:59,957 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-03 15:39:59,958 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:39:59,959 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-03 15:40:05,150 [Worker-775] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:40:05,150 [Worker-775] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-03 15:40:05,151 [Worker-775] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:40:05,152 [Worker-775] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-03 15:41:31,470 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:41:31,470 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-03 15:41:31,471 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-03 15:41:31,471 [Worker-777] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-04 14:48:13,403 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-04 14:48:13,418 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-04 14:48:13,420 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-04 14:48:13,420 [Worker-903] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-04 14:53:49,932 [Worker-904] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-04 14:53:49,932 [Worker-904] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-04 14:53:49,933 [Worker-904] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-04 14:53:49,933 [Worker-904] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-04 15:00:16,423 [Worker-908] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2020-05-05 17:32:26,113 [Worker-1354] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 17:32:26,142 [Worker-1354] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-05 17:32:26,143 [Worker-1354] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 17:32:26,143 [Worker-1354] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-05 17:37:26,680 [Worker-1352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 17:37:26,680 [Worker-1352] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-05 17:37:26,680 [Worker-1352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 17:37:26,680 [Worker-1352] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-06 17:29:11,656 [Worker-1489] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:29:11,676 [Worker-1489] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-06 17:29:11,677 [Worker-1489] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:29:11,678 [Worker-1489] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-06 17:39:17,901 [Worker-1499] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:39:17,909 [Worker-1499] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-06 17:39:17,909 [Worker-1499] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:39:17,910 [Worker-1499] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-06 17:40:23,794 [Worker-1497] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:40:23,794 [Worker-1497] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-06 17:40:23,795 [Worker-1497] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:40:23,795 [Worker-1497] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-06 17:40:38,939 [Worker-1500] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:40:38,939 [Worker-1500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-06 17:40:38,940 [Worker-1500] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:40:38,940 [Worker-1500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-06 17:44:03,514 [Worker-1495] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:44:03,519 [Worker-1495] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-06 17:44:03,520 [Worker-1495] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:44:03,520 [Worker-1495] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-06 17:44:12,518 [Worker-1496] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:44:12,519 [Worker-1496] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-06 17:44:12,519 [Worker-1496] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:44:12,520 [Worker-1496] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-06 17:44:20,758 [Worker-1497] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:44:20,758 [Worker-1497] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-06 17:44:20,759 [Worker-1497] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:44:20,759 [Worker-1497] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-06 17:47:22,564 [Worker-1498] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:47:22,565 [Worker-1498] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-06 17:47:22,567 [Worker-1498] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:47:22,568 [Worker-1498] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-06 17:47:35,127 [Worker-1496] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:47:35,128 [Worker-1496] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-06 17:47:35,128 [Worker-1496] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-06 17:47:35,128 [Worker-1496] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-08 15:44:22,477 [Worker-1835] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:44:22,504 [Worker-1835] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-08 15:44:22,505 [Worker-1835] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:44:22,505 [Worker-1835] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-08 15:46:24,495 [Worker-1838] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:46:24,496 [Worker-1838] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-08 15:46:24,496 [Worker-1838] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:46:24,496 [Worker-1838] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-08 15:48:17,980 [Worker-1836] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:48:17,999 [Worker-1836] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-08 15:48:18,000 [Worker-1836] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:48:18,000 [Worker-1836] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-08 15:49:04,980 [Worker-1835] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:49:04,981 [Worker-1835] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-08 15:49:04,981 [Worker-1835] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:49:04,981 [Worker-1835] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-08 15:49:51,736 [Worker-1832] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:49:51,736 [Worker-1832] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-08 15:49:51,736 [Worker-1832] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:49:51,736 [Worker-1832] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-08 15:50:33,095 [Worker-1839] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:50:33,095 [Worker-1839] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-08 15:50:33,095 [Worker-1839] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-08 15:50:33,095 [Worker-1839] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-09 17:44:09,868 [Worker-1946] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-09 17:44:09,894 [Worker-1946] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-09 17:44:09,895 [Worker-1946] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-09 17:44:09,895 [Worker-1946] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-10 13:27:31,897 [Worker-2187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:27:31,929 [Worker-2187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-10 13:27:31,930 [Worker-2187] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:27:31,930 [Worker-2187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-10 13:29:16,890 [Worker-2189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:29:16,890 [Worker-2189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-10 13:29:16,891 [Worker-2189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:29:16,891 [Worker-2189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-10 13:29:34,235 [Worker-2191] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:29:34,235 [Worker-2191] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-10 13:29:34,236 [Worker-2191] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:29:34,237 [Worker-2191] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-10 13:30:39,477 [Worker-2184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:30:39,478 [Worker-2184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-10 13:30:39,479 [Worker-2184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:30:39,479 [Worker-2184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-10 13:30:55,728 [Worker-2193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:30:55,728 [Worker-2193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-10 13:30:55,731 [Worker-2193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:30:55,731 [Worker-2193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-10 13:36:15,090 [Worker-2198] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:36:15,091 [Worker-2198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-10 13:36:15,091 [Worker-2198] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:36:15,091 [Worker-2198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-10 13:37:18,852 [Worker-2195] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:37:18,852 [Worker-2195] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-10 13:37:18,852 [Worker-2195] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-10 13:37:18,853 [Worker-2195] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-11 15:59:33,582 [Worker-2402] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 15:59:33,612 [Worker-2402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-11 15:59:33,613 [Worker-2402] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 15:59:33,613 [Worker-2402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-11 16:00:15,040 [Worker-2407] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:00:15,057 [Worker-2407] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-11 16:00:15,058 [Worker-2407] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:00:15,058 [Worker-2407] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-11 16:00:52,336 [Worker-2404] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:00:52,346 [Worker-2404] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-11 16:00:52,347 [Worker-2404] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:00:52,348 [Worker-2404] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-11 16:01:15,979 [Worker-2402] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:01:15,980 [Worker-2402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-11 16:01:15,980 [Worker-2402] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:01:15,980 [Worker-2402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-11 16:01:35,190 [Worker-2409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:01:35,190 [Worker-2409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-11 16:01:35,191 [Worker-2409] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:01:35,191 [Worker-2409] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-11 16:06:35,624 [Worker-2414] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:06:35,652 [Worker-2414] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-11 16:06:35,653 [Worker-2414] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-11 16:06:35,653 [Worker-2414] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-13 15:12:38,604 [Worker-3781] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:12:38,618 [Worker-3781] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-13 15:12:38,619 [Worker-3781] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:12:38,619 [Worker-3781] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-13 15:12:49,862 [Worker-3779] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:12:49,862 [Worker-3779] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-13 15:12:49,898 [Worker-3779] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:12:49,898 [Worker-3779] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-13 15:16:09,114 [Worker-3785] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:16:09,178 [Worker-3785] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-13 15:16:09,179 [Worker-3785] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:16:09,179 [Worker-3785] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-13 15:16:53,441 [Worker-3783] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:16:53,478 [Worker-3783] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-13 15:16:53,479 [Worker-3783] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:16:53,479 [Worker-3783] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-13 15:20:05,553 [Worker-3786] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:20:05,581 [Worker-3786] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-13 15:20:05,582 [Worker-3786] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-13 15:20:05,582 [Worker-3786] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-14 14:37:50,941 [Worker-4746] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:37:50,960 [Worker-4746] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-14 14:37:50,961 [Worker-4746] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:37:50,962 [Worker-4746] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-14 14:37:56,226 [Worker-4740] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:37:56,226 [Worker-4740] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-14 14:37:56,227 [Worker-4740] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:37:56,227 [Worker-4740] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-14 14:38:35,942 [Worker-4740] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:38:35,961 [Worker-4740] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-14 14:38:35,962 [Worker-4740] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:38:35,962 [Worker-4740] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-14 14:41:27,436 [Worker-4749] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:41:27,452 [Worker-4749] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-14 14:41:27,453 [Worker-4749] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:41:27,453 [Worker-4749] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-14 14:47:00,479 [Worker-4751] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:47:00,513 [Worker-4751] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-14 14:47:00,514 [Worker-4751] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:47:00,514 [Worker-4751] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-14 14:47:37,476 [Worker-4753] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:47:37,477 [Worker-4753] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-14 14:47:37,477 [Worker-4753] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:47:37,477 [Worker-4753] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-14 14:48:59,839 [Worker-4751] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:48:59,871 [Worker-4751] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-14 14:48:59,872 [Worker-4751] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-14 14:48:59,872 [Worker-4751] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-15 14:10:17,125 [Worker-5670] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:10:17,136 [Worker-5670] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-15 14:10:17,137 [Worker-5670] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:10:17,138 [Worker-5670] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-15 14:10:22,954 [Worker-5670] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:10:22,954 [Worker-5670] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-15 14:10:22,955 [Worker-5670] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:10:22,955 [Worker-5670] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-15 14:31:06,772 [Worker-5686] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:31:06,812 [Worker-5686] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-15 14:31:06,814 [Worker-5686] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:31:06,814 [Worker-5686] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-15 14:34:57,357 [Worker-5685] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:34:57,371 [Worker-5685] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-15 14:34:57,372 [Worker-5685] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:34:57,372 [Worker-5685] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-15 14:40:12,642 [Worker-5689] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:40:12,709 [Worker-5689] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-15 14:40:12,710 [Worker-5689] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-15 14:40:12,710 [Worker-5689] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-16 15:36:22,784 [Worker-6677] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-16 15:36:22,823 [Worker-6677] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-16 15:36:22,824 [Worker-6677] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-16 15:36:22,824 [Worker-6677] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-16 15:37:20,985 [Worker-6681] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-16 15:37:21,002 [Worker-6681] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-16 15:37:21,002 [Worker-6681] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-16 15:37:21,002 [Worker-6681] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-16 15:37:52,468 [Worker-6677] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-16 15:37:52,480 [Worker-6677] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-16 15:37:52,482 [Worker-6677] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-16 15:37:52,482 [Worker-6677] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-17 13:50:03,360 [Worker-7547] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:50:03,390 [Worker-7547] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-17 13:50:03,391 [Worker-7547] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:50:03,406 [Worker-7547] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-17 13:53:27,065 [Worker-7549] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:53:27,126 [Worker-7549] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-17 13:53:27,127 [Worker-7549] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:53:27,127 [Worker-7549] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-17 13:54:22,345 [Worker-7549] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:54:22,360 [Worker-7549] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-17 13:54:22,361 [Worker-7549] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:54:22,361 [Worker-7549] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-17 13:57:45,602 [Worker-7551] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:57:45,697 [Worker-7551] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-17 13:57:45,699 [Worker-7551] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:57:45,699 [Worker-7551] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-17 13:57:47,603 [Worker-7555] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:57:47,604 [Worker-7555] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-17 13:57:47,604 [Worker-7555] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-17 13:57:47,604 [Worker-7555] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-18 18:25:04,883 [Worker-8662] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:25:04,898 [Worker-8662] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-18 18:25:04,899 [Worker-8662] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-18 18:25:04,899 [Worker-8662] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-19 14:56:46,115 [Worker-9478] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-19 14:56:46,242 [Worker-9478] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-19 14:56:46,244 [Worker-9478] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-19 14:56:46,244 [Worker-9478] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-19 14:57:11,808 [Worker-9478] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-19 14:57:11,820 [Worker-9478] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-19 14:57:11,821 [Worker-9478] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-19 14:57:11,822 [Worker-9478] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-19 17:16:45,925 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-20 10:04:04,861 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:04:04,900 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-20 10:04:04,902 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:04:04,902 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-20 10:04:26,224 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:04:26,225 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-20 10:04:26,226 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:04:26,226 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-20 10:04:44,935 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:04:44,936 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-20 10:04:44,937 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:04:44,937 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-20 10:05:17,410 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:05:17,410 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-20 10:05:17,411 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:05:17,411 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-20 10:05:54,053 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:05:54,053 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-20 10:05:54,054 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:05:54,054 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-20 10:09:41,665 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:09:41,666 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-20 10:09:41,666 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:09:41,666 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-20 10:11:43,241 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:11:43,252 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-20 10:11:43,253 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:11:43,253 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-20 10:11:57,276 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:11:57,276 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/main/resources
+2020-05-20 10:11:57,278 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-20 10:11:57,278 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/andy/Desktop/WebdriverUniversityFramework/CucumberFramework/src/test/resources
+2020-05-20 10:19:53,631 [Worker-218] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169) [org.eclipse.recommenders.models.rcp_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/neon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:39) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421) ~[na:na]
+	... 8 common frames omitted

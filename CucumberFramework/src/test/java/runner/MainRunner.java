@@ -6,14 +6,23 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
+@CucumberOptions(
+		//feature location
+		features = {"src/test/java/Features/"},
 
-@CucumberOptions (
-		features = {"src/test/java/CucumberFramework/Features"},
-		glue = {"CucumberFramework.Steps"},
+		//step files
+		glue={"Steps"},
+
 		monochrome = true,
-		tags = {},
-		plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json", "com.cucumber.listener.ExtentCucumberFormatter:target/report.html"}
+
+		dryRun = false,
+
+		tags={},
+
+		plugin = {"pretty"}
 		)
+
+
 public class MainRunner {
 
 }

@@ -1,0 +1,41 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class TestNGDemo {
+
+	WebDriver driver;
+
+	@BeforeMethod
+	void setUpMethod() {
+		System.setProperty("webdriver.chrome.driver", "/Users/andy/Desktop/chromedriver");
+		driver = new ChromeDriver();
+		driver.get("http://www.google.com");
+	}
+
+	@Test
+	void calcTest() {
+		WebElement element = driver.findElement(By.id("lst-ib"));
+		element.sendKeys("2 + 3");
+		element.submit();
+
+		WebElement result = driver.findElement(By.id("cwos"));
+		Assert.assertEquals(result.getText(), "5");
+	}
+
+	@Test
+	void calcTest2() {
+		WebElement element = driver.findElement(By.id("lst-ib"));
+		element.sendKeys("sqrt 16");
+		element.submit();
+
+		WebElement result = driver.findElement(By.id("cwos"));
+		Assert.assertEquals(result.getText(), "4");
+	}
+}

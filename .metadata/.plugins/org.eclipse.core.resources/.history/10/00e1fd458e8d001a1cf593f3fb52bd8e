@@ -1,0 +1,17 @@
+package Steps;
+
+import java.io.IOException;
+import java.nio.file.Paths;
+
+import org.openqa.selenium.WebDriver;
+
+import cucumber.api.java.Before;
+
+public class LoginSteps {
+	WebDriver driver;
+
+	@Before()
+	public void setup() throws IOException {
+		System.setProperty("webdriver.chrome.driver", Paths.get(System.getProperty("user.dir")).toRealPath() + "/CucumberFramework/src/test/java/resources/chromedriver");
+	}
+}

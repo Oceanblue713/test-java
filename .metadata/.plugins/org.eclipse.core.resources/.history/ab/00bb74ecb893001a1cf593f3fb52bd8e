@@ -1,0 +1,24 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebDriverDemo {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "/Users/andy/Desktop/geckodriver");
+		// System.setProperty("webdriver.chrome.driver", "/Users/andy/Desktop/chromedriver");
+		WebDriver driver = new FirefoxDriver();
+		// WebDriver driver = new ChromeDriver();
+		driver.get("http://www.google.com");
+
+		// WebElement element = driver.findElement(By.id("lst-ib"));
+		// element.sendKeys("Google");
+		// element.submit();
+
+		WebElement apps = driver.findElement(By.cssSelector("a[aria-label='Google apps']"));
+		apps.click();
+	}
+}
